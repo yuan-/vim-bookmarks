@@ -408,8 +408,8 @@ if !get(g:, 'bookmark_no_default_key_mappings', 0)
   call s:register_mapping('BookmarkAnnotate', 'mi')
   call s:register_mapping('BookmarkNext',     'mn')
   call s:register_mapping('BookmarkPrev',     'mp')
-  call s:register_mapping('BookmarkClear',    'mc')
-  call s:register_mapping('BookmarkClearAll', 'mx')
+  "call s:register_mapping('BookmarkClear',    'mc')
+  "call s:register_mapping('BookmarkClearAll', 'mx')
 endif
 
 " }}}
